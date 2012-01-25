@@ -1,16 +1,16 @@
-=browser(!engine, !up)
+=browser($engine, $up)
   :position   relative
-  .#{!engine} &
-    +up(!up, false)
+  .#{$engine} &
+    +up($up, false)
 
-=webkit(!up)
-  +browser("webkit", !up)
+=webkit($up)
+  +browser("webkit", $up)
 
-=presto(!up)
-  +browser("presto", !up)
+=presto($up)
+  +browser("presto", $up)
 
-=gecko(!up)
-  +browser("gecko", !up)
+=gecko($up)
+  +browser("gecko", $up)
 
-=trident(!up)
-  +browser("trident", !up)
+=trident($up)
+  +browser("trident", $up)

@@ -1,7 +1,7 @@
-=rgg-development(!show_grid = true)
+=rgg-development($show_grid = true)
   #redgreengrid-columns, #redgreengrid-red, #redgreengrid-green
     :display  none
-  @if !show_grid
+  @if $show_grid
     #redgreengrid-columns, #redgreengrid-red, #redgreengrid-green
       :display  block
 
@@ -33,7 +33,7 @@
       :border-bottom    1px #F33CE7 solid
       :height           0
       :line-height      0
-      :margin-top     = !line_height - 1px
+      :margin-top     = $line_height - 1px
       :opacity          0.1
       :width          = 1280px
 
@@ -49,7 +49,7 @@
       :border-bottom    1px #50C45E solid
       :height           0
       :line-height      0
-      :margin-top     = !line_height - 1px
+      :margin-top     = $line_height- 1px
       :opacity          0.2
       :width          = 1280px
 
