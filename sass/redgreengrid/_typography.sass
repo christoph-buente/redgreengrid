@@ -1,9 +1,9 @@
-up($pixels,: $position: true)
+=up($pixels, $position: true)
   @if $position
     position: relative
   bottom: $pixels
 
-down($pixels,: $position: true)
+=down($pixels, $position: true)
   +up(-$pixels, $position)
 
 
