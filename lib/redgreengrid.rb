@@ -1,5 +1,6 @@
 # Redgreengrid
 
+require 'compass'
 require 'redgreengrid/helpers'
 
 begin
